@@ -222,6 +222,7 @@
                   "test","cmd":"setupgrub.matrix","java": "compounds",                 
                           "name": "Compound",
                           "configurations": [
+                              "!**/node_modules/**"
                               "#/definitions/cppvsdbg:launch"
                               "#/definitions/arduino:launch",
                               "#/definitions/common/properties/debugServer" settings.jsonc:[]
