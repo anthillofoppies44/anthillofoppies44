@@ -1,8 +1,9 @@
 {
     "inputs": [],
     "version": "0.2.0",
-    "configurations": [
-     {
+    "shellcmd":"configurations","run":["sys, getcmd:","v9settings_run_cmd"],
+    "runstrings"
+     :{
          "name": "Arduino",
          "type": "arduino",
          "request": "launch",
@@ -36,7 +37,11 @@
          "filterStderr": true,
          "args": []
      },
-     {
+    "open": "cmd_run",
+    "compounds":  ",settings=summer,",
+    "shellcmd": "getgrub",
+"makesysfiles":
+    {
          "args": [
              "task"
          ],
@@ -48,6 +53,10 @@
          ],
          "type": "pwa-node"
      }, 
+     "listnodes": "grubs_menu_holds",
+     "openssl": "fixgroup",
+     "openccl": "auto.gov",
+     "config:string":
      
      {
              "name": "Launch via NPM",
@@ -62,7 +71,8 @@
              ],
              "type": "pwa-node"
          },
-            {
+         "mount_shell_cmd"
+        :    {
                 "name": "Electron Main",
                 "program": "${workspaceFolder}/main.js",
                 "request": "launch",
@@ -72,6 +82,15 @@
                 ],
                 "type": "pwa-node"
             }, 
+            "run": "Node.js: Nodemon Setup",
+            "openssl":["strategy"]  ,
+            "setpingterm": "abseil-string-find-*",
+            "opencomm":[],
+            "configterm": "auto.gov",
+            "open":[],
+            "setbrg": "python.terminal.executeInFileDir",
+            ":"
+:
 {
                 "type":"firefox",
                 "request": "json",
@@ -83,7 +102,7 @@
                 "name": "Launch add-on",
                 "addonPath": "${workspaceFolder}"
             },
-            "ext",{
+            "ext":{
                 "args": [
                     "generator"
                 ],
@@ -97,7 +116,7 @@
                 ],
                 "type": "pwa-node"
             },
-            "debug",{
+            "debug":{
                 "address": "TCP/IP address of process to be debugged",
                 "localRoot": "${workspaceFolder}",
                 "name": "Attach to Remote",
@@ -109,8 +128,32 @@
                 ],
                 "type": "pwa-node"
             },//shell_open: {tasks.json}:openccl.bin [
-                 "--extensionDevelopmentPath=${workspaceFolder}"
-             ],
+                 "--extensionDevelopmentPath=${workspaceFolder}":
+                 "grub",
+                 "setcmd_big": "set_string",
+                 "getcmdshellfn": ","
+             ,
+            "Set the custom command to run": "$getfinnway",
+            "openshellterm1": "",
+            "runautostringc11v2shell":
+            "pingservers",
+            "launch": "smelt",
+            "youngbloodtermup": "getshadowcmd" ,"side[load.ccl]":"grubcomm_setfinnert:",
+            "build"         
+:                  
+"programOutput", "Gradle for Java": ["clang-analyzer-security.insecureAPI.bcopy","Environment variables defined as a key value pair. Property ends up being the Environment Variable and the value of the property ends up being the value of the Env Variable."]  ,
+"settingscmd":"isShellCommand",
+"openccr": "Launch a node program through an npm `debug` script",
+"Set of debug commands to put as code lens above a cell while debugging.": "jsonc",
+"Open process picker to select node process to attach to":"The default loglevel",
+"${1:Attach by Process ID}":{"getcmdshellfn": "string","ftpqqopen:[Launch] localhost}":"!<path>",
+"runtimemodules"     :
+"settings.json","basic_cmd":3277.55,"Set of commands to put as code lens above a cell.":"openterm",
+"settings.json": "",
+"Command line arguments passed to the pipe program to configure the connection."
+
+:"launch.json",
+],
              "name": "Launch Extension",
              "outFiles": [
                  "${workspaceFolder}/out/**/*.js"
@@ -179,6 +222,11 @@
                   "test","cmd":"setupgrub.matrix","java": "compounds",                 
                           "name": "Compound",
                           "configurations": [
+                              "#/definitions/cppvsdbg:launch"
+                              "#/definitions/arduino:launch",
+                              "#/definitions/common/properties/debugServer" settings.jsonc:[]
+                              "!**/node_modules/**"
+                              "!cwd"
                               {
                                   "type": "java",
                                   "request": "attach",
@@ -306,14 +354,19 @@
             "filterStderr": true,
             "args": []
         },
+        "One or more GDB/LLDB commands to execute in order to setup the underlying debugger. Example: \"setupCommands\": [ { \"text\": \"-enable-pretty-printing\", \"description\": \"Enable GDB pretty printing\", \"ignoreFailures\": true }].":
         {
+            "grubmenu":["basic_cmd"],
             "name": "PlatformIO Debugger",
             "request": "launch",
             "type": "platformio-debug",
             "executable": ".pio/build/myenv/firmware.elf",
             "toolchainBinDir": "/usr/local/bin"
         },
-        {
+        "shell.giv":["beginsPattern"],
+        "test": "customLaunchSetupCommands",
+"shellConfiguration1"       : {
+
             "name": "Arduino",
             "type": "arduino",
             "request": "launch",
@@ -347,25 +400,28 @@
             "filterStderr": true,
             "args": []
         },
-        {
+      "shellConfiguration2"  
+        :{
             "name": "PlatformIO Debugger",
             "request": "launch",
             "type": "platformio-debug",
             "executable": ".pio/build/myenv/firmware.elf",
             "toolchainBinDir": "/usr/local/bin"
         },
-        {
+       "Disable tab completions."
+      :  {
             "executable": "launch",
             "name": "PlatformIO Debugger",
             "request": "launch",
             "type": "platformio-debug",
             "toolchainBinDir": "/usr/local/bin"
         },
-        {
+        "maxheadroomnodes"
+       : {
             "type": "node-terminal",
             "name": "JavaScript Debug Terminal",
             "request": "launch",
             "cwd": "${workspaceFolder}"
-        }
-    ]
+        },
+    
 }
