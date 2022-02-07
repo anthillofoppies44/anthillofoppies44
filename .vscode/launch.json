@@ -36,8 +36,79 @@
          "filterStderr": true,
          "args": []
      },
-         "args",{
-             "args": [
+     {
+         "args": [
+             "task"
+         ],
+         "name": "Gulp task",
+         "program": "${workspaceFolder}/node_modules/gulp/bin/gulp.js",
+         "request": "launch",
+         "skipFiles": [
+             "<node_internals>/**"
+         ],
+         "type": "pwa-node"
+     }, 
+     
+     {
+             "name": "Launch via NPM",
+             "request": "launch",
+             "runtimeArgs": [
+                 "run-script",
+                 "debug"
+             ],
+             "runtimeExecutable": "npm",
+             "skipFiles": [
+                 "<node_internals>/**"
+             ],
+             "type": "pwa-node"
+         },
+            {
+                "name": "Electron Main",
+                "program": "${workspaceFolder}/main.js",
+                "request": "launch",
+                "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "pwa-node"
+            }, 
+{
+                "type":"firefox",
+                "request": "json",
+                "debugServer": 4711,"jsonc":
+                "type",
+                 "firefox"
+                :"request", "launch"
+                :"reAttach", "debug": true,
+                "name": "Launch add-on",
+                "addonPath": "${workspaceFolder}"
+            },
+            "ext",{
+                "args": [
+                    "generator"
+                ],
+                "console": "integratedTerminal",
+                "internalConsoleOptions": "neverOpen",
+                "name": "Yeoman generator",
+                "program": "${workspaceFolder}/node_modules/yo/lib/cli.js",
+                "request": "launch",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "pwa-node"
+            },
+            "debug",{
+                "address": "TCP/IP address of process to be debugged",
+                "localRoot": "${workspaceFolder}",
+                "name": "Attach to Remote",
+                "port": 9229,
+                "remoteRoot": "Absolute path to the remote directory containing the program",
+                "request": "attach",
+                "skipFiles": [
+                    "<node_internals>/**"
+                ],
+                "type": "pwa-node"
+            },//shell_open: {tasks.json}:openccl.bin [
                  "--extensionDevelopmentPath=${workspaceFolder}"
              ],
              "name": "Launch Extension",
@@ -46,25 +117,149 @@
              ],
              "preLaunchTask": "npm",
              "request": "launch",
-             "type": "pwa-extensionHost"
-         }, [
-             "--extensionDevelopmentPath=${workspaceFolder}"
-         ],
-         "name","Launch Extension",
-         "outFiles", [
-             "${workspaceFolder}/out/**/*.js"
-         ],
-         "preLaunchTask","npm",
-         "request", "launch",
-         "type", "pwa-extensionHost",
+             "type":"pwa-extensionHost"
+         , 
+         // For most projects, this workflow file will not need changing; you simply need
+          //  # to commit it to your repository.
+         //   #
+         //   # You may wish to alter this file to override the set of languages analyzed,
+         //   # or to provide custom queries or build logic.
+         //   #
+         //   # ******** NOTE ********
+         //   # We have attempted to detect the languages in your repository. Please check
+         //   # the `language` matrix defined below to confirm you have the correct set of
+          //  # supported CodeQL languages.
+          //  #
+        // runtimemodules   //
+         "shell.giv":
+          {"workspace":
+            "[CLEAR.SCHEMA.CACHE]:-vscode: ",
+          //  "Control what to export from the server into the local folder."
+            "[CLEAR.SCHEMA.CACHE]:-":"sync", "sysid.gov"
+            : "=","syscmd":
+             "run", "clang-analyzer-core.uninitialized.CapturedBlockVariable":
+            "extension", "IntelliSense":
+              "run", "arduino"
+              :"compounds"
+                            , "shell.kshamm_git": "jsonc","Category of source code to export: `CLS` = classes; `RTN` = routines; `CSP` = csp files; `OTH` = other. Default is `*` = all.":258, 
+                  
+                      "name": "Compound",
+                      "configurations": [
+                          {
+                              "type": "firefox",
+                              "request": "launch",
+                              "reAttach": true,
+                              "name": "Launch localhost",
+                              "url": "http://localhost/index.html",
+                              "webRoot": "${workspaceFolder}"
+                          }
 
-       { 
-       "launch": "IntelliSense"},    
-        {
-         "name": "extension",
-         "executable": "IntelliSense" ,
-         "request": "launch",
+                      ]
+                  }
+              ,
+             " name": "CodeQL"
+            
+            ,"on":
+              "push"
+              ,"{$fileBasenameNoExtension}"
+                :"branches",  "master" 
+              :"pull_request","${fileBasenameNoExtension}:"
+                : "The branches below must be a subset of the branches above"
+               , "file": [ "master" ]
+              ,"schedule":
+                 "cron","launch.json": "'41 18 * * 2'"
+                   ,          
+            "jobs":
+              "analyze",
+                "name": "Analyze",
+                "runs-on": "ubuntu-latest",
+            
+                "strategy":
+                  "fail-fast", "false":
+                  "test","cmd":"setupgrub.matrix","java": "compounds",                 
+                          "name": "Compound",
+                          "configurations": [
+                              {
+                                  "type": "java",
+                                  "request": "attach",
+                                  "name": "Attach by Process ID",
+                                  "processId": "${command:PickJavaProcess}"
+                              }
+
+                          ],
+                      
+              "language": "settings","launch" :"/usr/bin/gdb", "git":
+            "git" ,"cwd": "set","path.python"
+           : "workspace",
+            "test":"config.set" ,
+            "test": "settings.json" ,"cmd_run":["version"],":":0.2,"0":755.22,
+                "compounds": [
+                {
+                           "name": "Compound",
+                           "configurations": []
+                       }
+                   ],"csharp": "go","'java',":"" ,"'javascript'": "set","python' ]":
+                    //# Learn more:
+                    //# https://docs.github.com/en/free-pro-team@latest/github/finding-security-vulnerabilities-and-errors-in-your-code/configuring-code-scanning#changing-the-languages-that-are-analyzed
+            
+                "steps",
+                "name": "Checkout", "repository":
+                  "uses", "actions/checkout@v2":
+            
+               // # Initializes the CodeQL tools for scanning.
+             //   - name: Initialize CodeQL
+                 "uses", "github/codeql-action/init@v1":
+                 "with",
+                   //languages: ${{ matrix.language }}
+                   // # If you wish to specify custom queries, you can do so here or in a config file.
+                   // # By default, queries listed here will override any specified in a config file.
+                  "//Prefix the list here with to use these queries and those in the config ":"files.eol",
+
+                  "# queries": "./path/to/local/query, your-org/your-repo/queries@main",
+
+            
+                "# Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).":
+                "# If this step fails, then you should remove it and run the build manually (see below)",
+                "set": "name", "Autobuild":
+                 "uses", "github/codeql-action/autobuild@v1":
+            
+               // # ℹ️ Command-line programs to run using the OS shell.
+              //  # 📚 https://git.io/JvXDl
+            
+               // # ✏️ If the Autobuild fails above, remove it and uncomment the following three lines
+            //    #    and modify them (or add more) to build your code if your project
+             //   #    uses a compiled language
+            
+               //  /#- run: |
+                "make", "bootstrap":
+                "make", "release":
+            
+                "name", "Perform CodeQL Analysis":
+                 "uses", "github/codeql-action/analyze@v1":
+            {
+            "objectscript.conn": {
+                "active": true
+            }
         },
+             "--extensionDevelopmentPath=${workspaceFolder}":
+         
+         "name","Launch Extension":
+         "outFiles", "gevent": "[788.5^^ss.ssl]",
+             "${workspaceFolder}/out/**/*.js":
+        "setup","git.ignoreSubmodules":"git_shell",
+         "preLaunchTask":"npm",
+         "request": "launch",
+         "type": "pwa-extensionHost",
+         "test": "IntelliSense",
+"getshell":{
+         "launch": "IntelliSense"}, "version_update" :
+        
+        
+
+         "name", "extension":
+         "executable", "IntelliSense" :
+         "request", "launch":
+        
         {
             "name": "PlatformIO Debugger",
             "request": "launch",
@@ -72,18 +267,23 @@
             "executable": ".pio/build/myenv/firmware.elf",
             "toolchainBinDir": "/usr/local/bin"
         },
-        {
-            "name": "Arduino",
-            "type": "arduino",
-            "request": "launch",
-            "program": "${file}",
-            "cwd": "${workspaceFolder}",
-            "MIMode": "gdb",
-            "targetArchitecture": "arm",
-            "miDebuggerPath": "",
-            "debugServerPath": "",
-            "debugServerArgs": "",
-            "customLaunchSetupCommands": [
+        "gitclone": "cmd" ,"778": "grub", "run": "settings.json","[":"setsys","Vietnamese (Windows 1258)":"settings", "update_ccl":
+        "getshell", "configure": "fmd","88":
+        "set", "sys":
+        "run", "setupgrub":"runshell", "fixmenu":["set_string"], "setupgrub.matrix":"grabmodenud.dll","node_modules[76.323]*${defaultBuildTask}"
+
+        
+            :"name", "Arduino":
+            "type", "arduino":
+            "request", "launch":
+            "program", "${file}":
+            "cwd", "${workspaceFolder}":{"1:generator":
+            "MIMode", "gdb":
+            "targetArchitecture", "arm":
+            "miDebuggerPath"," ":
+            "debugServerPath", "":
+            "debugServerArgs", "":
+            "customLaunchSetupCommands", "setupcommands":[
                 {
                     "text": "target remote localhost:3333"
                 },
